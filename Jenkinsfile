@@ -5,4 +5,10 @@ node {
 	stage('Test') {
 		echo "Test"
 	}
+	stage('SIT') {
+		echo "SIT"
+	}
+	stage('NFT') {
+		echo "NFT"
+	}
 }
