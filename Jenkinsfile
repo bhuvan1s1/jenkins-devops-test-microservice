@@ -20,8 +20,8 @@ node {
 pipeline {
 	//agent any
 	agent {
-    dockerfile {
-        image 'maven:3-alpine'
+    docker {
+        image 'maven:3.6.3'
     }
 }
 	stages{
