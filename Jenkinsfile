@@ -18,7 +18,7 @@ node {
 //declarative scripting - new
 
 pipeline {
-	agents any
+	agent any
 	stages{
 		stage('Development'){
 			steps {
