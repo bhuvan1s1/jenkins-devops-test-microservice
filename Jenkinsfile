@@ -21,7 +21,7 @@ pipeline {
 	//agent any
 	agent {
     dockerfile {
-        image 'maven 3.6.3'
+        image 'maven:3-alpine'
     }
 }
 	stages{
