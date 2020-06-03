@@ -18,7 +18,12 @@ node {
 //declarative scripting - new
 
 pipeline {
-	agent any
+	//agent any
+	agent {
+    dockerfile {
+        image 'maven 3.6.3'
+    }
+}
 	stages{
 		stage('Development'){
 			steps {
